@@ -62,7 +62,7 @@
 }
 
 /* thiet bi table */
-@media screen and (max-width:  980px){
+@media screen and (max-width: 980px){
 	.slogan{
 		width: 100%;
 	}
@@ -77,15 +77,13 @@
 		margin-left: 40px;
 	}
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 	.slogan{
 		width: 100%;
 
 	}
-	.menu .active{
+	.menu ul li{
 		width: 100%;
-		float: left;
-		margin-left: 500px;
 		background: pink;
 	}
 }
