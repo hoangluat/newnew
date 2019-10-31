@@ -191,9 +191,36 @@
 }
 .menu ul li.active a{
 	color: white;
+	background: green;
 }
 .menu ul li:hover a{
 	color: white;
 	background: green;
 }
-/* Hết luật */
+
+/* thiet bi table */
+@media screen and (max-width: 980px){
+	.slogan{
+		width: 100%;
+	}
+	.menu .active {
+		width: 40%;
+		float: left;
+		margin-left: 40px;
+	}
+	.menu .actie2 {
+		width: 40%;
+		float: left;
+		margin-left: 40px;
+	}
+}
+@media screen and (max-width: 480px){
+	.slogan{
+		width: 100%;
+
+	}
+	.menu ul li{
+		width: 100%;
+		background: pink;
+	}
+}
