@@ -171,7 +171,7 @@
 	width: 22%;
 	display: block;
 	height: 100%;
-	background: gray;
+	/*background: gray;*/
 	margin-left: 2.2%;
 
 }
@@ -202,6 +202,7 @@
 @media screen and (max-width: 980px){
 	.slogan{
 		width: 100%;
+		float: left;
 	}
 	.menu .active {
 		width: 40%;
@@ -217,10 +218,12 @@
 @media screen and (max-width: 480px){
 	.slogan{
 		width: 100%;
+		float: left;
 
 	}
 	.menu ul li{
 		width: 100%;
-		background: pink;
+		/*background: pink;*/
+		padding-left: 4.5rem;
 	}
 }
